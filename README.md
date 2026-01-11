@@ -9,7 +9,6 @@ Responsive YouTube homepage clone built with **pure HTML5 + CSS3**. Features the
 - ✅ **Hover effects** on video cards
 - ✅ **Modern CSS** (Flexbox, CSS Grid)
 - ✅ **Semantic HTML5**
-- ✅ **normalize.css** for cross-browser consistency
 
 ## 🛠 **Tech Stack**
 HTML5    |  Semantic structure + forms
