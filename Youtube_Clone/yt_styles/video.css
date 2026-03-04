@@ -71,6 +71,7 @@
 
 .channel {
     margin-bottom: 5px;
+    /* margin-left: 2px; */
 }
 
 .video-grid {
@@ -80,4 +81,45 @@
     row-gap: 30px;
     ;
 
+}
+
+/* MOBILE + ANIMATIONS */
+.thumbnail {
+    height: 180px; 
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border-radius: 12px 12px 0 0;
+}
+
+.video-preview:hover .thumbnail {
+    transform: scale(1.05);
+}
+
+.pfp {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.video-grid {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: 1fr !important;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+    .header { padding: 0 1rem; }
+    .middle-section {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        max-width: 250px;
+    }
+    .thumbnail { height: 160px; }
 }
