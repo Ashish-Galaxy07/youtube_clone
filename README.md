@@ -1,28 +1,74 @@
-# YouTube Clone - HTML + CSS Landing Page
+# 📺 YouTube Clone
 
-## 📱 **Overview**
-Responsive YouTube homepage clone built with **pure HTML5 + CSS3**. Features the main navigation, hero section, video grid, and footer.
+A responsive YouTube landing page clone built using **HTML, CSS, and JavaScript**.  
+This project replicates the YouTube homepage UI and includes a functional **Dark / Light Mode toggle** for enhanced user experience.
 
-## ✨ **Features**
-- ✅ **Fully responsive** (mobile, tablet, desktop)
-- ✅ **Pixel-perfect YouTube design**
-- ✅ **Hover effects** on video cards
-- ✅ **Modern CSS** (Flexbox, CSS Grid)
-- ✅ **Semantic HTML5**
+---
 
-## 🛠 **Tech Stack**
-HTML5    |  Semantic structure + forms
-CSS3     |  Flexbox, Grid, Animations
+## 🛠️ Tech Stack
 
-## 🎨 **Design Breakdown**
-### **Key Components Implemented:**
-✅ Header (Logo + Search + Icons)
-✅ Hero Video Section  
-✅ Video Grid (Featured + Recommended)
-✅ Footer (Links + Copyright)
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Flexbox
+- CSS Grid
+- Responsive Design
 
-## 📚 **Learning Outcomes**
-✅ CSS Grid + Flexbox mastery
-✅ Mobile-first responsive design
-✅ Modern CSS selectors + pseudo-elements
-✅ Semantic HTML structure
+---
+
+## ✨ Features
+
+- 🎥 YouTube-style homepage layout
+- 📱 Fully responsive design
+- 🌗 Dark / Light mode toggle (JavaScript)
+- 🧭 Functional navigation bar
+- 🔍 Search input UI
+- 🎬 Video grid layout
+- 📂 Sidebar menu
+- 💡 Clean, structured, modern UI
+
+---
+
+## 🌗 Dark / Light Mode Implementation
+
+- Implemented using JavaScript
+- Toggle button switches theme dynamically
+- CSS classes are modified using `classList`
+- Smooth transition between themes
+- Theme state can be extended using localStorage (future improvement)
+
+---
+
+## 🎯 Learning Outcomes
+
+- DOM manipulation using JavaScript
+- Theme switching logic
+- Improved CSS structuring
+- Practical experience with Flexbox & Grid
+- Responsive layout building
+
+---
+
+## 📸 Preview
+
+<img width="1898" height="885" alt="image" src="https://github.com/user-attachments/assets/3c1b7a1e-6052-4731-b900-c20446665aea" />
+
+<img width="1895" height="884" alt="image" src="https://github.com/user-attachments/assets/81d82073-0981-4069-b10e-618af9596015" />
+
+---
+
+## 🚀 Future Improvements
+
+- Store theme preference using localStorage
+- Add sidebar open/close animation
+- Integrate YouTube Data API
+- Add video playback page
+
+---
+
+## 👨‍💻 Author
+
+**Ashish**  
+Computer Science student passionate about Web Development, problem-solving, and building interactive user interfaces.
+
+---
